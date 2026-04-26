@@ -48,7 +48,7 @@
 
     if (!year || !month || !day) return datePart;
 
-    return `${day}/${month}/${year}`;
+    return `${month}/${day}/${year}`;
   }
 </script>
 
