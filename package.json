@@ -6,6 +6,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
+    "fetch:data": "node fetch-data.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",

@@ -1,0 +1,5 @@
+{
+  "note": "Use fetch-data.js for the NYC Open Data pull.",
+  "run": "npm run fetch:data",
+  "output": "src/lib/data/packages.json"
+}

@@ -1,0 +1,1909 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9222,
+          40.8291
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "species": "American basswood",
+        "description": "Mid-park, along a path near the northern lawn",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9117,
+          40.8996
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "species": "American elm",
+        "description": "At the top of the lawn just southeast of the Wave Hill House.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d93b3acee56.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8953,
+          40.8358
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "species": "American elm",
+        "description": "Near the Claremont Parkway and Crotona Park E entrance, on the northern side",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8859,
+          40.8469
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "species": "American elm",
+        "description": "East 180th Street, near Mapes Ave.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8803,
+          40.8598
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "species": "American sycamore",
+        "description": "New York Botanical Garden, just northeast of Everett Garden Gate",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8644,
+          40.8939
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "species": "Black oak",
+        "description": "Northeast corner of Woodlawn Cemetery",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8857,
+          40.8829
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "species": "Black tupelo",
+        "description": "Mid-park, visible from W Mosholu Parkway North",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/67045450e27e4.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8768,
+          40.8883
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "species": "European cutleaf beech",
+        "description": "Woodlawn Cemetery northeast of the Jerome Avenue entrance",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d93f12627c2.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8916,
+          40.84
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "species": "Green ash",
+        "description": "South of the Prospect Ave. entrance, behind the playground",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8683,
+          40.8934
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "species": "Japanese maple",
+        "description": "Woodlawn Cemetery, between Central Avenue & Spruce Avenue",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9117,
+          40.8996
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "species": "Lacebark pine",
+        "description": "At the top of the lawn just southeast of the Wave Hill House.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d940ff10c97.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8157,
+          40.8555
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "species": "Littleleaf linden",
+        "description": "South of Bronx Victory Memorial",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d94224884a5.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8717,
+          40.8849
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "species": "Littleleaf linden",
+        "description": "Woodlawn Cemetery's Jazz Corner, overlooking gravesite of Duke Ellington",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9079,
+          40.88
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "species": "London planetree",
+        "description": "East side of Corlear Avenue just south of West 231st Street",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d93c4b3e04b.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9103,
+          40.882
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "species": "Mazzard Cherry",
+        "description": "Mid-park, just south of the dog run",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7854,
+          40.8784
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "species": "Post oak",
+        "description": "Northern edge of Hunter Island",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8942,
+          40.8907
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "species": "Red horse chestnut",
+        "description": "On the east lawn of Van Cortlandt Mansion.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d93dcf36fe9.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8753,
+          40.8649
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "species": "Red oak",
+        "description": "Middle of the Spicebush Trail, across from a large rock outcropping.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9118,
+          40.8995
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "species": "Sugar maple",
+        "description": "At the top of the lawn just southeast of the Wave Hill House.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d9460ff0a1a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8524,
+          40.8334
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "species": "Sweetgum",
+        "description": "2151 Newbold Avenue, in the yard of American Legion Post 1065",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d946cc13310.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8712,
+          40.8911
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "species": "Umbrella pine",
+        "description": "Woodlawn Cemetery, corner of Parkview and Chestnut Avenues",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d947c28c0c2.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8715,
+          40.8913
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "species": "Weeping beech",
+        "description": "Woodlawn Cemetery, near Gould Mausoleum",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d948d982eb4.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8912,
+          40.8914
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "species": "White ash",
+        "description": "East side of the entrance to the cross country trail",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d94a32e3be1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8829,
+          40.8657
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "species": "White ash",
+        "description": "New York Botanical Garden, near Bedford Park Blvd. entrance",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9177,
+          40.8874
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "species": "White oak",
+        "description": "Along the Palisades Avenue hiking trail",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d94b411748c.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8675,
+          40.8957
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "species": "White oak",
+        "description": "Woodlawn Cemetery, North Border Ave and Rutgers Ave overlooking East 233rd Street",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d94c1b4a5a1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8851,
+          40.8838
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "species": "White oak",
+        "description": "North side of Gun Hill Road at Moshulu Parkway North",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8771,
+          40.8878
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "species": "White pine",
+        "description": "Woodlawn Cemetery near Jerome Avenue entrance",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54d94c89dfb0d.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8748,
+          40.8778
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "species": "Willow oak",
+        "description": "3331 Perry Ave.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7782,
+          40.7922
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "species": "American basswood",
+        "description": "On Underhill Rd & Officers Dr",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8219,
+          40.7084
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "species": "American beech",
+        "description": "Maple Grove Cemetery, by the grave of Elizabeth Riis",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de598166ae7.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8219,
+          40.7084
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "species": "American beech",
+        "description": "Maple Grove Cemetery, by the grave of Elizabeth Riis",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de588f17ec6.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8696,
+          40.7375
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "species": "American elm",
+        "description": "92-22 55 Avenue",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8276,
+          40.7642
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "species": "Bald cypress",
+        "description": "138-10 Northern Boulevard, Queens (in front of Flushing High School)",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de5743762ce.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8209,
+          40.7587
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "species": "Bald cypress",
+        "description": "143-66 Sanford Avenue at Parsons Boulevard, Queens",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de563edfbf2.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.849,
+          40.6962
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "species": "Black oak",
+        "description": "Rear of All Saints Episcopal Church, not publicly viewable.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8248,
+          40.7635
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "species": "Cedar of Lebanon",
+        "description": "Mid-park, near the public restroom",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de550dc070f.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8239,
+          40.7637
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "species": "European beech",
+        "description": "On 37th Ave, in Kingsland Homestead/Queens Historical Society courtyard",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7678,
+          40.7745
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "species": "Ginkgo",
+        "description": "Behind the baseball fields, near the public restroom",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de6ffd759c3.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7528,
+          40.7739
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "species": "Katsura",
+        "description": "15 Shore Road, Queens",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de520a5cf81.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8093,
+          40.7474
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "species": "Littleleaf linden",
+        "description": "Immediately adjacent to the tennis courts - 75 feet north of the public restroom",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de7fe41e897.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8083,
+          40.7471
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "species": "Persian parrotia",
+        "description": "Thirty feet south of the public restroom",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de80309469a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8421,
+          40.7021
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "species": "Pin oak",
+        "description": "Memorial Drive, from Jackson Pond Playground to Forest Park Drive",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/67045aae8575c.jpeg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.778,
+          40.7672
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "species": "River birch",
+        "description": "35-26 Corporal Kennedy Street",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8087,
+          40.7712
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "species": "Swamp white oak",
+        "description": "Between northwest entrance of Bowne Park and the pond",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7466,
+          40.756
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "species": "Tuliptree",
+        "description": "Along Tulip Tree Trail (Enter at Horace Harding Expy entrance)",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909,
+          40.7706
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "species": "Willow oak",
+        "description": "23-24 Steinway Street",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0296,
+          40.6343
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "species": "American elm",
+        "description": "72nd Street and Ridge Boulevard",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da84333bd98.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928,
+          40.6895
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "species": "American elm",
+        "description": "In front of 794 Quincy St",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0046,
+          40.6483
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "species": "American elm",
+        "description": "Top of the hill in the central lawn",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9743,
+          40.6048
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "species": "American elm",
+        "description": "Near 1769 West 1st Street",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9389,
+          40.6277
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "species": "American elm",
+        "description": "Near Avenue J and East 39th Street entrance",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9655,
+          40.6605
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "species": "American hornbeam",
+        "description": "Across from the camperdown elm where three trails intersect.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8559435bb.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9378,
+          40.6411
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "species": "Black oak",
+        "description": "1319 Albany Ave",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9349,
+          40.6411
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "species": "Black oak",
+        "description": "1281 Troy Avenue",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9653,
+          40.6606
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "species": "Camperdown elm",
+        "description": "South of the Boathouse and east of the Lullwater bridge",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da852ae86b0.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9913,
+          40.6536
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "species": "Camperdown elm",
+        "description": "Greenwood Cemetery at the intersection of Garden Path and Pink Avenue",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da86507b7a0.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9644,
+          40.6669
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "species": "Caucasian wing nut",
+        "description": "On the Flatbush Avenue side of the Brooklyn Botanic Garden just north of the Rock Garden",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da869dc76b9.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9637,
+          40.6656
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "species": "Chinese parasol tree",
+        "description": "South of the Rock Garden",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da87444cc1a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9637,
+          40.6673
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "species": "Common pawpaw",
+        "description": "Plant Family Collection between Daffodil Hill and Oak Circle",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da87b0352e0.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.6966
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "species": "Dawn redwood",
+        "description": "151 Willow St",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da88143ba22.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9437,
+          40.7255
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "species": "Eastern redbud",
+        "description": "Msgr. McGolrick Park, west of the playground",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9712,
+          40.6702
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "species": "English elm",
+        "description": "Dr, between Garfield Entrance and Meadowport Arch",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da888c78ded.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9738,
+          40.6907
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "species": "English elm",
+        "description": "North of southeastern children's playground.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9429,
+          40.6813
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "species": "Ginkgo",
+        "description": "In front of 87 MacDonough St",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9651,
+          40.6603
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "species": "Japanese pagoda tree",
+        "description": "Beside the camperdown elm south of the Boathouse",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8acf2fd29.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9625,
+          40.6669
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "species": "Kansas hawthorn",
+        "description": "Across from the Lily Pond",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8b8ac89bb.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9464,
+          40.6906
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "species": "Magnolia",
+        "description": "Magnolia Tree Earth Center, 677 Lafayette Avenue",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8c4776564.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9636,
+          40.6654
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "species": "Mountain winterberry",
+        "description": "South side of the Rock Garden",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8be854045.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9196,
+          40.6851
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "species": "Northern red oak",
+        "description": "On southern side of the path north of the children's playground",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978,
+          40.6471
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "species": "Northern red oak",
+        "description": "195 East 3 Street",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03,
+          40.6217
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "species": "Pin oak",
+        "description": "351 88th Street",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9822,
+          40.6698
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "species": "Shumard's oak",
+        "description": "385 6th Ave",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8803,
+          40.6867
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "species": "Weeping beech",
+        "description": "Cypress Hills Cemetery, north of Norwood Ave at Jamaica Ave",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9872,
+          40.6644
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "species": "Weeping willow",
+        "description": "At the corner of 6th Ave & 15th St",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9239,
+          40.5923
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "species": "Weeping willow",
+        "description": "Near Gerritsen Ballfields, southeast of Ball Field #3",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9415,
+          40.7203
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "species": "Willow oak",
+        "description": "In front of 86 Herbert Street.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9719,
+          40.7715
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "species": "American elm",
+        "description": "The Mall (located just north of the intersection of the east and north drives, at about 66th street)",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd2bb1da8ab.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9713,
+          40.7712
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "species": "American elm",
+        "description": "Growing at rock outcrops just east of the mall",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8d5bdc29a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9713,
+          40.7713
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "species": "American elm",
+        "description": "Growing at rock outcrops just east of the Mall",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de69c442c5f.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9733,
+          40.7796
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "species": "American elm",
+        "description": "Grows by the retaining wall at the northeast corner of the intersection of Central Park West and West 77th street",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8dbd71519.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9568,
+          40.7894
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "species": "American elm",
+        "description": "East 97th Street entrance to Central Park, aproximately 500 feet west of 5th Avenue",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54da8e1fc1b9a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.7261
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "species": "American elm",
+        "description": "Central plaza, across from south entrance",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9567,
+          40.8088
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "species": "American sycamore",
+        "description": "Next to fork in path, north of W. 120th St entrance",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9695,
+          40.778
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "species": "Black tupelo",
+        "description": "Near the center of the Ramble",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd2b34242b5.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0135,
+          40.7112
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "species": "Callery pear",
+        "description": "9/11 Memorial Plaza",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0064,
+          40.7121
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "species": "Canadian burr oak ",
+        "description": "Near the Jacob Wrey Mould Fountain and Park Row",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9817,
+          40.7262
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "species": "Colorado blue spruce",
+        "description": "Central lawn, northeast of Hare Krishna Tree",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9918,
+          40.7241
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "species": "Dawn redwood",
+        "description": "Inside the Liz Christy Garden",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9986,
+          40.732
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "species": "English elm",
+        "description": "Northwest corner of Washington Square Park",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd2ac955026.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843,
+          40.7342
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "species": "English elm",
+        "description": "Western gate of Stuyvesant Square Park",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd2a39155b4.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94,
+          40.8371
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "species": "English elm",
+        "description": "Apartment complex on east side of St. Nicholas Ave at 163rd Street",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd29dfb53c9.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9875,
+          40.7428
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "species": "English elm",
+        "description": "Mid-park, northeast of reflecting pool",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9191,
+          40.8685
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "species": "Ginkgo",
+        "description": "Southeast corner at Broadway and West 211th Street",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd28f8b298b.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9328,
+          40.8634
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "species": "Ginkgo",
+        "description": "South end of the Cloisters Lawn",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9579,
+          40.7892
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "species": "London plane",
+        "description": "Northeast corner of reservoir",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd289740c70.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9453,
+          40.8038
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "species": "Osage orange",
+        "description": "Southwest corner of Marcus Garvey Park",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934,
+          40.8603
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "species": "Siberian elm",
+        "description": "Southern entrance of Heather Garden, west side of Center Path",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9668,
+          40.7833
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "species": "Various",
+        "description": "Arthur Ross Pinetum at the north end of the Great Lawn",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd2742b6fcc.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9827,
+          40.7245
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "species": "Weeping willow",
+        "description": "530 East 6th St",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9792,
+          40.7221
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "species": "Weeping willow",
+        "description": "Southeast corner of El Jardin del Paraiso Garden",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9257,
+          40.7823
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "species": "Weeping willow",
+        "description": "Southeast of Wards Meadow Loop, across from Hell Gate channel",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9595,
+          40.7839
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "species": "Yoshino cherries",
+        "description": "East side of reservoir",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54dd259814f5f.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1658,
+          40.5925
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "species": "American elm",
+        "description": "Located east of 890 Travis Ave.",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2528,
+          40.5031
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "species": "American sycamore",
+        "description": "Behind the Conference House",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de466551321.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1579,
+          40.532
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "species": "Black walnut",
+        "description": "On Olmsted-Beil House property, east of the house",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1453,
+          40.5713
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "species": "Catalpa",
+        "description": "Historic Richmond Town, behind the tin shop",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1579,
+          40.5318
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "species": "Cedar of Lebanon",
+        "description": "4515 Hylan Boulevard - 35 feet off the left corner of the house (three feet off the driveway)",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de45b390f6a.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2387,
+          40.5068
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "species": "Eastern cottonwood",
+        "description": "184 Sprague Avenue, Staten Island",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de4289b11d5.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1777,
+          40.5307
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "species": "Eastern white pine",
+        "description": "Just southeast of Blue Heron Nature Center",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0882,
+          40.6306
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "species": "English yew",
+        "description": "Southeast of Victory Blvd entrance",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0587,
+          40.6074
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "species": "Japanese pagoda tree",
+        "description": "At southern end of park, where the path curves east-west",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0627,
+          40.6147
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "species": "London planetree",
+        "description": "In the meadow south of the Alice Austen House",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de48d8cb2f3.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.197,
+          40.5198
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "species": "Osage orange grove",
+        "description": "Multiple trees along Seguine Avenue from Hylan Boulevard across from the Staten Island University Hospital",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de3cde2651b.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1017,
+          40.6432
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "species": "Princesstree",
+        "description": "914 Richmond Terrace (on the west side of the Veterans Memorial Hall Playhouse, off Chapel Road)",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de3afa1b911.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0776,
+          40.6442
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "species": "Swamp white oak",
+        "description": "Stuyvesant Place near St. George Park",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1526,
+          40.5558
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "species": "Swamp white oak",
+        "description": "Near Giffords Ln & Gibson Ave, inaccessible to the public",
+        "image": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1218,
+          40.6272
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "species": "Tuliptree",
+        "description": "Near the corner of Clove Road and Forest Avenue",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de37f5cb5f7.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1061,
+          40.616
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "species": "Willow oak",
+        "description": "On the shore of Clove Lake, 150 feet north of Victory Boulevard, near the basketball courts.",
+        "image": "https://www.nycgovparks.org/images/facilities/uploads/small/54de36b03c465.jpg"
+      }
+    }
+  ]
+}

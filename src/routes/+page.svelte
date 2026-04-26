@@ -1,122 +1,135 @@
-<!--
-@component
-This is your page!
--->
 <script>
-  // Import all the news furniture components
   import ArticleHeader from '$lib/components/Article/ArticleHeader.svelte';
-  import ArticleBody from '$lib/components/Article/ArticleBody.svelte';
-  import Blockquote from '$lib/components/Article/Blockquote.svelte';
-  import Image from '$lib/components/Media/Image.svelte';
-  import RelatedLinks from '$lib/components/Article/RelatedLinks.svelte';
+  import Map from '$lib/components/Maps/Map.svelte';
+  import MapLayer from '$lib/components/Maps/MapLayer.svelte';
+  import Geocoder from '$lib/components/Maps/Geocoder.svelte';
+  import Legend from '$lib/components/Maps/Legend.svelte';
 
-  // Article metadata
-  let headline = 'Become a force for good. Join our next class.';
-  let byline = 'NYCity News Service';
-  let pubDate = '2026-01-31';
+  let { data } = $props();
 
-  // Related stories
-  const relatedStories = [
-    {
-      headline:
-        "How America's top news organizations escape rigid publishing systems to design beautiful data-driven stories on deadline.",
-      href: 'https://palewi.re/docs/coding-the-news/',
-    },
-    {
-      headline:
-        'How to install, configure and use Visual Studio Code, GitHub and Copilot',
-      href: 'https://palewi.re/docs/coding-the-news/scripts/week-1/',
-    },
-    {
-      headline: 'How to publish a website with Node.JS and GitHub Actions',
-      href: 'https://palewi.re/docs/coding-the-news/scripts/week-2/',
-    },
-  ];
+  const packagesGeoJson = $derived.by(() => ({
+    type: 'FeatureCollection',
+    features: (data.packages ?? [])
+      .map((p) => {
+        const lng = Number(p.longitude);
+        const lat = Number(p.latitude);
+
+        if (!Number.isFinite(lng) || !Number.isFinite(lat)) return null;
+
+        return {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [lng, lat],
+          },
+          properties: {
+            boro_nm: p.boro_nm,
+            typ_desc: p.typ_desc,
+            package_type: String(p.typ_desc || '')
+              .split(':')[1]
+              ?.trim()
+              .toLowerCase(),
+            create_date: p.create_date,
+          },
+        };
+      })
+      .filter(Boolean),
+  }));
+
+  let longitude = $state(-74.0);
+  let latitude = $state(40.7);
+  let zoom = $state(9.5);
+
+  function formatDate(value) {
+    if (!value) return '';
+
+    const datePart = String(value).split('T')[0];
+    const [year, month, day] = datePart.split('-');
+
+    if (!year || !month || !day) return datePart;
+
+    return `${day}/${month}/${year}`;
+  }
 </script>
 
-<!-- This sets the page title in the browser tab -->
-<svelte:head>
-  <title>{headline} | NYCity News Service</title>
-  <meta
-    name="description"
-    content="At the Craig Newmark Graduate School of Journalism at the City University of New York, change is in our DNA. That comes of being born in 2006, as the digital revolution was transforming our profession in ways none of us could have imagined."
-  />
-</svelte:head>
-
-<!-- Your page content goes here -->
 <div class="container">
-  <!-- Article Header: Headline, byline, and publication date -->
-  <ArticleHeader {headline} {byline} {pubDate} />
-
-  <!-- Lead Image: Animated gif of students at the journalism school -->
-  <Image
-    src="/example-photo.gif"
-    alt="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    caption="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    credit="Craig Newmark Graduate School of Journalism"
+    <ArticleHeader
+    headline="Have you seen this suspicious package?"
+    byline="Ashley Mowreader"
+    pubDate="2026-04-26"
   />
 
-  <!-- Article Body: The main story text with proper typography -->
-  <ArticleBody>
-    <p class="dropcap">
-      At the Craig Newmark Graduate School of Journalism at the City University
-      of New York, change is in our DNA. That comes of being born in 2006, as
-      the digital revolution was transforming our profession in ways none of us
-      could have imagined.
-    </p>
+  <p>
+   Each year, the New York Police Department responds to thousands of reports of suspicious packages. Some are harmless, but others can pose serious threats. 
+   </p>
+   <p>This interactive map shows the locations of reported suspicious packages in New York City in 2024 (the latest update to data), based on reports from the NYPD's Open Data portal. </p>
+  
+  <p> Click on a datapoint to learn more about the report or use the search box to find your neighborhood and see if there have been any reports nearby.
+  </p>
 
+    <Geocoder
+    label="Explore your neighborhood"
+    placeholder="Enter an address in New York…"
+    onresult={(result) => {
+      longitude = result.lng;
+      latitude = result.lat;
+      zoom = 15;
+    }}
+  />
+
+       <Legend
+        title="Locations of Suspicious Packages"
+        mode="categorical"
+        items={[
+          { color: '#16a34a', label: 'Outside' },
+          { color: '#1d4ed8', label: 'Inside' },
+          { color: '#f97316', label: 'Transit' },
+        ]}
+      />
+
+  <Map
+    {longitude}
+    {latitude}
+    {zoom}
+    height ={600}
+    theme="positron"
+    credit="OpenFreeMap / OpenStreetMap contributors"
+  >
+    <MapLayer
+      id="packages"
+      type="circle"
+      data={packagesGeoJson}
+      paint={{
+        'circle-color': [
+          'match',
+          ['get', 'package_type'],
+          'transit', '#f97316',
+          'outside', '#16a34a',
+          'inside', '#1d4ed8',
+          '#6b7280',
+        ],
+        'circle-radius': 5,
+        'circle-stroke-color': '#1a1a1a',
+        'circle-stroke-width': 1,
+        'circle-opacity': 0.9,
+      }}
+
+      popup={(feature) => {
+        const p = feature.properties;
+        return `<strong>${p.typ_desc || 'Suspicious package'}</strong><br>${p.boro_nm || ''}<br>${formatDate(p.create_date)}`;
+      }}
+    />
+   
+  </Map>
+
+
+  <div class ="methodology">
+    <h2>Methodology</h2>
     <p>
-      We fashioned a school to teach the latest storytelling, entrepreneurial,
-      and technological skills alongside reporting, writing, and ethics. Beyond
-      that, we’ve crafted a culture that spurns complacency, that isn’t afraid
-      to pivot before the ground under us shifts.
+      The data for this map was sourced from the New York Police Department's Open Data portal, specifically from the "NYPD Calls for Service (Historic)" dataset. Entries are generated by members of the public who called 911, as well as by police officers in the field.</p>
+      <p>
+      The dataset has been filtered to include only incidents reported in 2024 that were categorized as "SUSP PACKAGE". Packages are categorized by their location, as labeled in the portal. Other relevant fields extracted for this visualization include the incident date, location description, and geographic coordinates (latitude and longitude). The data was then processed and formatted for use in this interactive map.
     </p>
 
-    <p>
-      Our mission is to serve the public interest – by training new journalists
-      from varied economic, racial, and cultural backgrounds who will bring
-      much-needed diversity to newsrooms, by helping mid-career journalists
-      retool their skills, and by partnering with other media organizations to
-      find new paths to excellence.
-    </p>
-
-    <Blockquote attribution="Craig Newmark Graduate School of Journalism">
-      <p>We invite you to be part of our world.</p>
-    </Blockquote>
-
-    <p>
-      Our low tuition rates, along with the added backing of private donors,
-      allow candidates for our master’s degrees in journalism and engagement
-      journalism to receive a world-class education at an affordable price. We
-      also offer a unique bilingual master’s in journalism for students fluent
-      in English and Spanish.
-    </p>
-
-    <p>
-      Our three media centers provide research, training, thought leadership,
-      industry meet-ups, and financial support for quality journalistic work.
-    </p>
-
-    <p>
-      We also offer a robust professional education program through regular
-      evening and weekend workshops. And we support in-depth reporting projects
-      of professional journalists through fellowship grants.
-    </p>
-
-    <p>
-      Classes are led by accomplished full-time faculty and adjuncts, who tap
-      their networks to help students and graduates find internships, freelance
-      opportunities and — the ultimate prize — jobs.
-    </p>
-
-    <p>
-      At a time when our profession is reeling from financial pressures and lack
-      of trust, the Newmark Graduate School of Journalism is committed to
-      producing the next generation of skilled, ethically minded, and diverse
-      journalists.
-    </p>
-  </ArticleBody>
-
-  <!-- Related Stories: Links to other articles -->
-  <RelatedLinks title="Related Stories" links={relatedStories} />
+    </div>
 </div>
